@@ -1,8 +1,37 @@
 {
   "info": {
-    "_postman_id": "012055d1-110b-48e7-a76f-b20dbcd8ab00",
-    "name": "New Collection",
+    "_postman_id": "f8482e77-caa1-41d8-975d-b55ba182cb70",
+    "name": "sync",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": []
+  "item": [
+    {
+      "name": "https://bifrost-v4.postman-beta.tech/ws/proxy",
+      "_postman_id": "3bb8bb84-5537-4e1c-9a86-d7e999292763",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-access-token",
+            "value": "d5ce123763e703c526e2c381deea21db9da2ec4061e04555c68c2679f17f429a9e353047252fbff21827afe4838b7b609aae0e9181134103aeb6681d1b8c033d",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"method\": \"POST\",\n    \"path\": \"/integration?workspace=2e6afb66-de04-4472-9623-3b9d60fbdb77\",\n    \"service\": \"integrations\",\n    \"body\": {\n        \"rule\": \"apiversion_github\",\n        \"entity\": \"apiversion\",\n        \"executor\": \"7ad0d578-12dc-4e3e-8e39-1202a6a3fb4b\",\n        \"variables\": {\n          \"directory\":\"test\" ,\n          \"filename\": \"test.json\",\n          \"branch\": \"test\",\n          \"source\": \"postman\",\n          \"api\": \"542fcdca-eae4-433d-add0-47e47a423d09\",\n          \"name\":\"1.0\" \n        }\n\n}\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "https://bifrost-v4.postman-beta.tech/ws/proxy"
+      },
+      "response": []
+    }
+  ]
 }
