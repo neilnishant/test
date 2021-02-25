@@ -1,0 +1,61 @@
+{
+  "info": {
+    "_postman_id": "1ef24585-0fa6-496a-87d4-d69e7d4f0cd6",
+    "name": "test-collection Copy",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "_postman_id": "340866b7-3c8e-4f5c-b353-f3c9ddc1c166",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"fefeff\":\"日本\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "https://www.test.com"
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "83a96eab-e9d4-454b-8b3f-b8653a577b8e",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "dde1a933-e3e5-47ec-92cd-eebb6aaffcf0",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "a275c3ed-99a7-4726-b25c-51d167d476f7",
+      "key": "lefkljref",
+      "value": "refef",
+      "type": "string"
+    }
+  ]
+}
