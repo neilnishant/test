@@ -27,5 +27,35 @@
       },
       "response": []
     }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "ebb068bd-5cea-428f-81fd-9be26cbcd587",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "822aa12f-4f4c-4f92-8814-de18110c3138",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "82533703-9e51-4584-9f48-61edecf509ed",
+      "key": "lefkljref",
+      "value": "refef",
+      "type": "string"
+    }
   ]
 }
