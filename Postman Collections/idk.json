@@ -12,9 +12,18 @@
         "disableBodyPruning": true
       },
       "request": {
-        "method": "GET",
+        "method": "POST",
         "header": [],
-        "url": ""
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"executor\": \"572314-f8482e77-caa1-41d8-975d-b55ba182cb70\",\n    \"name\": \"new metric test\",\n    \"rule\": \"monitor_run_datadog\",\n    \"entity\": \"jobTemplate\",\n    \"variables\": {\n        \"api_key\" :\"\",\n        \"region\": \"us\",\n        \"options\": \"both\",\n        \"new_metric\": true\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "https://bifrost-https-v4.gw.postman-beta.co/ws/proxy"
       },
       "response": []
     }
