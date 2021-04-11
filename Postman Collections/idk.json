@@ -13,10 +13,16 @@
       },
       "request": {
         "method": "POST",
-        "header": [],
+        "header": [
+          {
+            "key": "x-access-token",
+            "value": "5ce587df71091d321963b135d69cf33cc7c6c415e52a0dbb4af00f5b969403fb9cbd23f7967bfa2b82a06a8b11ec71529b6acf307d420eac364186aec57481ef",
+            "type": "text"
+          }
+        ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"executor\": \"572314-f8482e77-caa1-41d8-975d-b55ba182cb70\",\n    \"name\": \"new metric test\",\n    \"rule\": \"monitor_run_datadog\",\n    \"entity\": \"jobTemplate\",\n    \"variables\": {\n        \"api_key\" :\"\",\n        \"region\": \"us\",\n        \"options\": \"both\",\n        \"new_metric\": true\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"executor\": \"1eb9775d-b0b9-47f0-8c84-ca7495193fc3\",\n    \"name\": \"new metric test\",\n    \"rule\": \"monitor_run_datadog\",\n    \"entity\": \"jobTemplate\",\n    \"variables\": {\n        \"api_key\" :\"jklfjeklfjreklfer\",\n        \"region\": \"us\",\n        \"options\": \"both\",\n        \"new_metric\": true\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
