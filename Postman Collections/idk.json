@@ -18,6 +18,11 @@
             "key": "x-access-token",
             "value": "5ce587df71091d321963b135d69cf33cc7c6c415e52a0dbb4af00f5b969403fb9cbd23f7967bfa2b82a06a8b11ec71529b6acf307d420eac364186aec57481ef",
             "type": "text"
+          },
+          {
+            "key": "referer",
+            "value": "https://cooper.postman-beta.co/integrations/service/microsoft_flow/add/collection_microsoft_flow",
+            "type": "text"
           }
         ],
         "body": {
