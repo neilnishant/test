@@ -22,7 +22,8 @@
           {
             "key": "referer",
             "value": "https://cooper.postman-beta.co/integrations/service/microsoft_flow/add/collection_microsoft_flow",
-            "type": "text"
+            "type": "text",
+            "disabled": true
           }
         ],
         "body": {
@@ -34,7 +35,31 @@
             }
           }
         },
-        "url": "https://bifrost-https-v4.gw.postman-beta.co/ws/proxy"
+        "url": {
+          "raw": "https://bifrost-v4.postman-beta.tech/ws/proxy?rule=monitor_run_datadog",
+          "protocol": "https",
+          "host": [
+            "bifrost-v4",
+            "postman-beta",
+            "tech"
+          ],
+          "path": [
+            "ws",
+            "proxy"
+          ],
+          "query": [
+            {
+              "key": "rule",
+              "value": "monitor_run_datadog"
+            },
+            {
+              "key": "workspace",
+              "value": "52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
       },
       "response": []
     }
