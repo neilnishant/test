@@ -28,7 +28,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1eb9775d-b0b9-47f0-8c84-ca7495193fc3\",\n        \"name\": \"new metric test\",\n        \"rule\": \"monitor_run_datadog\",\n        \"variables\": {\n            \"api_key\" :\"jklfjeklfjreklfer\",\n            \"region\": \"us\",\n            \"options\": \"both\",\n            \"new_metric\": true\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1eb8801d-54e3-47b0-b498-7c2d14348919\",\n        \"name\": \"old metric test 1\",\n        \"rule\": \"monitor_run_datadog\",\n        \"variables\": {\n            \"api_key\" :\"1e1c3fd2860a9fd4c45ad087674c8798\",\n            \"region\": \"us\",\n            \"options\": \"both\"\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
