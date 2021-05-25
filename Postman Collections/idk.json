@@ -16,7 +16,7 @@
         "header": [
           {
             "key": "x-access-token",
-            "value": "5ce587df71091d321963b135d69cf33cc7c6c415e52a0dbb4af00f5b969403fb9cbd23f7967bfa2b82a06a8b11ec71529b6acf307d420eac364186aec57481ef",
+            "value": "a116fb7ffb5c560ff6c74c7ee0cb3e4b02158a3e7b908ff86561ea2f2f5cfd3814b529d450609f8e9b3ce0652c4419e8d4e47d17a5ebb66bd67a6a9918133f1d",
             "type": "text"
           },
           {
@@ -28,7 +28,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1eb8801d-54e3-47b0-b498-7c2d14348919\",\n        \"name\": \"old metric test 1\",\n        \"rule\": \"monitor_run_datadog\",\n        \"variables\": {\n            \"api_key\" :\"1e1c3fd2860a9fd4c45ad087674c8798\",\n            \"region\": \"us\",\n            \"options\": \"both\"\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1eba7594-2c81-4970-996a-cac0e412fc13\",\n        \"name\": \"old metric test 1\",\n        \"rule\": \"monitor_run_datadog\",\n        \"variables\": {\n            \"api_key\" :\"1e1c3fd2860a9fd4c45ad087674c8798\",\n            \"region\": \"us\",\n            \"options\": \"both\"\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=f9234185-9925-47e7-84c7-2f7c077e1e69\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -36,12 +36,12 @@
           }
         },
         "url": {
-          "raw": "https://bifrost-https-v4.gw.postman-beta.com/ws/proxy",
+          "raw": "https://bifrost-https-v4.gw.postman.com/ws/proxy",
           "protocol": "https",
           "host": [
             "bifrost-https-v4",
             "gw",
-            "postman-beta",
+            "postman",
             "com"
           ],
           "path": [
