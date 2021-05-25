@@ -36,12 +36,12 @@
           }
         },
         "url": {
-          "raw": "https://bifrost-https-v4.gw.postman.com/ws/proxy",
+          "raw": "https://bifrost-https-v4.gw.postman-beta.com/ws/proxy",
           "protocol": "https",
           "host": [
             "bifrost-https-v4",
             "gw",
-            "postman",
+            "postman-beta",
             "com"
           ],
           "path": [
