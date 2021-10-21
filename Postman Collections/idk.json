@@ -28,7 +28,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1ec3267d-2692-4850-8cf4-def8557273c2\",\n        \"name\": \"with region test eu\",\n        \"rule\": \"monitor_run_coralogix\",\n        \"variables\": {\n            \"private_api_key\" :\"6b8cf42c-9695-9bd6-7e66-9e0d114f20d3\",\n            \"sendCollection\": true,\n            \"sendEnvironment\": true,\n            \"region\": \"europe\"\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1ec3267d-2692-4850-8cf4-def8557273c2\",\n        \"name\": \"with region test eu without region\",\n        \"rule\": \"monitor_run_coralogix\",\n        \"variables\": {\n            \"private_api_key\" :\"6b8cf42c-9695-9bd6-7e66-9e0d114f20d3\",\n            \"sendCollection\": true,\n            \"sendEnvironment\": true\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
