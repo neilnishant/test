@@ -28,7 +28,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1eba7594-2c81-4970-996a-cac0e412fc13\",\n        \"name\": \"old metric test 1\",\n        \"rule\": \"monitor_run_datadog\",\n        \"variables\": {\n            \"api_key\" :\"1e1c3fd2860a9fd4c45ad087674c8798\",\n            \"region\": \"us\",\n            \"options\": \"both\"\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=f9234185-9925-47e7-84c7-2f7c077e1e69\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1ec3267d-2692-4850-8cf4-def8557273c2\",\n        \"name\": \"with region test\",\n        \"rule\": \"monitor_run_coralogix\",\n        \"variables\": {\n            \"private_api_key\" :\"ed299c9f-02bb-9ada-26d6-afc433e16afe\",\n            \"region\": \"us\",\n            \"sendCollection\": true,\n            \"sendEnvironment\": true\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
