@@ -28,7 +28,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1ec3267d-2692-4850-8cf4-def8557273c2\",\n        \"name\": \"with region test eu without region\",\n        \"rule\": \"monitor_run_coralogix\",\n        \"variables\": {\n            \"private_api_key\" :\"6b8cf42c-9695-9bd6-7e66-9e0d114f20d3\",\n            \"sendCollection\": true,\n            \"sendEnvironment\": true\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=52c3e53a-93aa-4c5d-8fd6-c70fd4ee6fb3\",\n    \"service\" : \"integrations\"\n}",
+          "raw": "{\n    \"body\":{\n        \"entity\": \"jobTemplate\",\n        \"executor\": \"1ec33092-4e87-48a0-aed0-458c5091708f\",\n        \"name\": \"india without region\",\n        \"rule\": \"monitor_run_coralogix\",\n        \"variables\": {\n            \"private_api_key\" :\"37bb13fa-3b6a-66ae-bb68-53a317c28d8c\",\n            \"sendCollection\": true,\n            \"sendEnvironment\": true\n        }\n    },\n    \"method\": \"post\",\n    \"path\" : \"/integration?workspace=643e6c27-a806-42a0-8557-41f4ed46757e\",\n    \"service\" : \"integrations\"\n}",
           "options": {
             "raw": {
               "language": "json"
